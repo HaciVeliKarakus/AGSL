@@ -10,11 +10,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 
 @Composable
-fun ProfileScreen() {
+fun SettingScreen() {
     Box(
-        modifier = Modifier.fillMaxSize().background(Color.Blue),
+        modifier = Modifier.fillMaxSize().background(Color.Yellow),
         contentAlignment = Alignment.Center
     ) {
-        Text(text = "Profile Screen")
+        Text(text = "Setting Screen")
     }
 } 
