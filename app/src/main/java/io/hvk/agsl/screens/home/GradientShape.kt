@@ -39,7 +39,7 @@ private fun ContentUI() {
             "iResolution",
             size.width, size.height
         )
-        drawCircle(brush = shaderBrush)
+        drawRect(brush = shaderBrush)
     }
 }
 

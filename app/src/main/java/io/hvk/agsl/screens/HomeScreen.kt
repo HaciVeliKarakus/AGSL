@@ -56,6 +56,8 @@ private fun ContentUI(show: (Screen) -> Unit) {
         Item("Expandable Fab") { show(ExpandableFAB) }
         Item("Text Translate") { show(TextTranslate) }
         Item("Lines") { show(Lines) }
+        Item("Sphere") { show(Sphere) }
+        Item("Wave") { show(WaveEffect) }
     }
 }
 
